@@ -1,0 +1,11 @@
+{
+  "name": "JEI",
+  "icon": "dice:red_d6",
+  "category": "patchouli:mod_tips",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use these symbols before search queries to filter results.$(br)@: Filter by mod ID.$(br)$: Filter by tag.$(br)%: Filter by Creative Mode tab.$(br)^: Filter by color."
+    }
+  ]
+}

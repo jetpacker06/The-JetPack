@@ -1,0 +1,11 @@
+{
+  "name": "About the Author",
+  "icon": "dice:cyan_d6",
+  "category": "patchouli:other_information",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Call me Cody.$(br)I like to make mods and modpacks.$(br)Discord: jetpacker06#8063$(br)Reddit: u/jetpacker06$(br)Github: jetpacker06"
+    }
+  ]
+}

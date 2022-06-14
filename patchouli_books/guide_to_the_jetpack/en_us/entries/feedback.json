@@ -1,0 +1,11 @@
+{
+  "name": "Feedback",
+  "icon": "dice:magenta_d6",
+  "category": "patchouli:other_information",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If you want to leave feedback or make a suggestion, leave a comment on $(l:https://discord.gg/JzAQPX7kDR)the Discord server."
+    }
+  ]
+}

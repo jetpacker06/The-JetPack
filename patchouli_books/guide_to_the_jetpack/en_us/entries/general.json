@@ -1,0 +1,11 @@
+{
+  "name": "General Info",
+  "icon": "dice:purple_d6",
+  "category": "patchouli:server",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Server IP: coming soon $(br)$(l:https://discord.gg/JzAQPX7kDR)Join the Discord server here!"
+    }
+  ]
+}
