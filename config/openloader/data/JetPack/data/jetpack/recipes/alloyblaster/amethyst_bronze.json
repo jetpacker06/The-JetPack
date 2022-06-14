@@ -1,0 +1,18 @@
+{
+  "type": "stainless:alloy_blasting",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "ingredient1count": 3,
+  "ingredient2count": 1,
+  "ingredient3count": 0,
+  "output": {
+    "item": "tconstruct:amethyst_bronze_ingot"
+  },
+  "outputcount": 1
+}

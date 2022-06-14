@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text":"❶FullBrightnessToggle: Press 'G' to enable fullbright.$(br)❷Camera: Take or upload pictures, display them on an image frame. Shift-right-click with the camera to select a filter.$(br)❸Inventory sorter: Middle click in a chest or your inventory to sort it.$(br)❹Dice: Roll a die in 16 colors."
+      "text":"❶FullBrightnessToggle: Press 'G' to enable fullbright.$(br)❷Camera: Take or upload pictures, display them on an image frame. Shift-right-click with the camera to select a filter.$(br)❸Inventory sorter: Middle click in a chest or your inventory to sort it.$(br)❹Dice: Roll a die in 16 colors.$(br)❺Nature's Compass: Find any biome using a compass."
     }
   ]
 }

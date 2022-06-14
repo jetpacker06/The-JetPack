@@ -1,0 +1,21 @@
+{
+  "type": "stainless:alloy_blasting",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "tconstruct:sky_slime_ball"
+    },
+    {
+      "item": "tconstruct:seared_brick"
+    }
+  ],
+  "ingredient1count": 3,
+  "ingredient2count": 1,
+  "ingredient3count": 0,
+  "output": {
+    "item": "tconstruct:slimesteel_ingot"
+  },
+  "outputcount": 2
+}

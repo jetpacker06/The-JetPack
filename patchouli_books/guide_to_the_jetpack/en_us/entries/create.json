@@ -1,11 +1,11 @@
 {
-  "name": "JEI",
-  "icon": "dice:red_d6",
+  "name": "Create",
+  "icon": "dice:magenta_d6",
   "category": "patchouli:mod_tips",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Create was reconfigured a bit for the pack.$(br)1.Minecart contraptions containing spawners can be picked up with a wrench.$(br)2. Mechanical crafters can be used to craft fireworks with more gunpowder than usual."
+      "text": "Create was reconfigured a bit for the pack.$(br)1. Minecart contraptions containing spawners can be picked up with a wrench.$(br)2. Mechanical crafters can be used to craft fireworks with more gunpowder than usual."
     }
   ]
 }

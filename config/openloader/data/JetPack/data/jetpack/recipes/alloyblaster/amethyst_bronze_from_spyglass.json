@@ -1,0 +1,15 @@
+{
+  "type": "stainless:alloy_blasting",
+  "ingredients": [
+    {
+      "item": "minecraft:spyglass"
+    }
+  ],
+  "ingredient1count": 1,
+  "ingredient2count": 0,
+  "ingredient3count": 0,
+  "output": {
+    "item": "tconstruct:amethyst_bronze_ingot"
+  },
+  "outputcount": 1
+}

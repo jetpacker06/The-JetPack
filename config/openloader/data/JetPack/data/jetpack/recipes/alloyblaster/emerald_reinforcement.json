@@ -1,0 +1,18 @@
+{
+  "type": "stainless:alloy_blasting",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "ingredient1count": 1,
+  "ingredient2count": 1,
+  "ingredient3count": 0,
+  "output": {
+    "item": "tconstruct:emerald_reinforcement"
+  },
+  "outputcount":4
+}

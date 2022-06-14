@@ -1,0 +1,18 @@
+{
+  "type": "stainless:alloy_blasting",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "tconstruct:obsidian_pane"
+    }
+  ],
+  "ingredient1count": 3,
+  "ingredient2count": 1,
+  "ingredient3count": 0,
+  "output": {
+    "item": "tconstruct:gold_reinforcement"
+  },
+  "outputcount": 1
+}
