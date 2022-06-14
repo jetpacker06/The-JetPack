@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text":"Simple Storage Network is a storage mod that allows you to connect any amount of item containers into a network and control them all in one place. You can even access it remotely. As this requires the chunk to be force-loaded, it is recommended that you chunk-align your network and force-load it."
+      "text":"Simple Storage Network is a storage mod that allows you to connect any amount of item containers into a network and control them all in one place. You can even access it remotely. As this requires the network's chunks to be loaded, it is recommended that you chunk-align your network and force-load it."
     }
   ]
 }
