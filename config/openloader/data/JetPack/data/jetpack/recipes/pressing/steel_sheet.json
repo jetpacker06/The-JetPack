@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "mekanism:ingot_steel"
+    }
+  ],
+  "results": [
+    {
+      "item": "stainless:steel_sheet"
+    }
+  ]
+}

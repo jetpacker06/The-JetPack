@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "mekanism:ingot_bronze"
+    }
+  ],
+  "results": [
+    {
+      "item": "steampowered:bronze_sheet"
+    }
+  ]
+}

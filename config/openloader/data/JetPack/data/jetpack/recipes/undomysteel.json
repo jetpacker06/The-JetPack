@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mekanism:block_steel"
+  },
+  "result": "stainless:steel_block",
+  "count": 1
+}
