@@ -4,7 +4,7 @@
 	#The Application ID of the Discord App to use
 	clientID = 762726289341677668
 	#Enable/Disable the mod
-	enabled = true
+	enabled = false
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Enable/Disable the in game config screen
@@ -17,9 +17,9 @@
 #The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
-	description = "Minecraft is loading"
+	description = "Booting up the JetPack..."
 	#The second line of text under the app name
 	state = "Game Starting..."
 	#The Asset ID of the image to display as the large image
@@ -38,7 +38,7 @@
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is currently lazy"
+	description = "%player% is playing The JetPack - Main Menu"
 	#The seconds line of text under the app name
 	state = "Chilling in the menu"
 	#The Asset ID of the image to display as the large image
@@ -55,7 +55,7 @@
 #The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
 	description = "%player% is looking for a server"
 	#The second line of text under the app name
@@ -74,7 +74,7 @@
 #The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
 	description = "%player% is looking for a Realm"
 	#The second line of text under the app name
@@ -93,7 +93,7 @@
 #The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
 	description = "%player% is joining a game"
 	#The second line of text under the app name
@@ -114,9 +114,9 @@
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Currently In %world%"
+	description = "%player% is playing The JetPack singleplayer."
 	#The second line of text under the app name
-	state = "Playing lonely mode"
+	state = "Playing singleplayer."
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "mclogonew"
 	#The text that gets displayed when the large image is hovered
@@ -133,7 +133,7 @@
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing on %servername% with %players% players"
+	description = "Playing The JetPack on %servername% with %players% players"
 	#The second line of text under the app name
 	state = "Playing online"
 	#The Asset ID of the image to display as the large image
@@ -150,7 +150,7 @@
 #The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
-	enabled = true
+	enabled = false
 	#The first line of text under the app name
 	description = "Playing on %realmname%"
 	#The second line of text under the app name
@@ -169,7 +169,7 @@
 #Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
-	description = "Playing Minecraft"
+	description = "Playing The JetPack"
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
