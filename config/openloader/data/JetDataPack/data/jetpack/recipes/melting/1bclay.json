@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "supplementaries:statue"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_clay",
+    "amount": 1000
+  },
+  "temperature": 800,
+  "time": 150
+}

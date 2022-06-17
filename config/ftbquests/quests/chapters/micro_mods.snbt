@@ -1,0 +1,68 @@
+{
+	id: "7B71C593F9E3B46A"
+	group: ""
+	order_index: 1
+	filename: "micro_mods"
+	title: "Micro Mods"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -1.0d
+			id: "10E2DF4A8D662740"
+			tasks: [{
+				id: "6137483EAF9B3ED0"
+				type: "item"
+				item: "camera:camera"
+			}]
+			rewards: [{
+				id: "62C7DD7093BBC1E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			title: "Dice"
+			x: -3.0d
+			y: -2.0d
+			id: "60496E4F75DEFA4B"
+			tasks: [{
+				id: "138921F44640472B"
+				type: "item"
+				title: "Any #jetpack:dice"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "jetpack:dice"
+					}
+				}
+			}]
+			rewards: [{
+				id: "579A8413CDBEABAD"
+				type: "item"
+				item: "stainless:steel_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "5BC1E6AC7CF8DCD9"
+			tasks: [{
+				id: "20F8F72F3ED4BEC3"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "22C4744B17DB1784"
+				type: "item"
+				item: "stainless:steel_ingot"
+			}]
+		}
+	]
+}

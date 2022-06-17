@@ -1,0 +1,276 @@
+{
+	id: "7E423677861E3C51"
+	group: ""
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	icon: {
+		id: "create:chromatic_compound"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Key ingredients"
+			icon: "create:andesite_alloy"
+			x: 12.5d
+			y: 6.5d
+			shape: "square"
+			id: "13C3B32944FBC2A8"
+			tasks: [
+				{
+					id: "4014CCF1CCB36767"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 10L
+				}
+				{
+					id: "0AF488BF3B728794"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 10L
+				}
+				{
+					id: "735882B8995F7167"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "4F5CCEB4548A2CEE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Gears are turning"
+			icon: "create:cogwheel"
+			x: 14.0d
+			y: 6.5d
+			dependencies: ["13C3B32944FBC2A8"]
+			id: "41A911AEFF0CC86A"
+			tasks: [
+				{
+					id: "13564BD2D921DE8B"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "5A909ABC9BC0E9D3"
+					type: "item"
+					item: "create:shaft"
+				}
+			]
+			rewards: [
+				{
+					id: "5D65C5F495AFB59C"
+					type: "item"
+					item: "create:cogwheel"
+					count: 8
+				}
+				{
+					id: "4C5B1C052A7A95CF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Switching gears"
+			x: 14.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["41A911AEFF0CC86A"]
+			id: "42CD7186F0FB3556"
+			tasks: [
+				{
+					id: "48F001116D10C2E1"
+					type: "item"
+					item: "steampowered:steel_cogwheel"
+				}
+				{
+					id: "4D288064FF0904BF"
+					type: "item"
+					item: "steampowered:cast_iron_cogwheel"
+				}
+				{
+					id: "16DB9D183489C4D6"
+					type: "item"
+					item: "steampowered:bronze_cogwheel"
+				}
+			]
+			rewards: [
+				{
+					id: "19C2401D88BF5FE1"
+					type: "item"
+					item: "mekanism:ingot_steel"
+					count: 4
+				}
+				{
+					id: "64833A0B8706154D"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+				{
+					id: "40C1EE1C10EB05FF"
+					type: "item"
+					item: "mekanism:ingot_bronze"
+					count: 4
+				}
+				{
+					id: "198B3EAD0EA0DF77"
+					type: "item"
+					item: "stainless:steel_ingot"
+				}
+			]
+		}
+		{
+			title: "Alloys at last"
+			x: 17.0d
+			y: 6.5d
+			dependencies: ["77FE6B1D1BAEA1BC"]
+			id: "5EBC8B2A45CF6126"
+			tasks: [{
+				id: "03C2E0CAD488F595"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [
+				{
+					id: "014D088FC4CE578C"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 8
+				}
+				{
+					id: "13C639D4927A6754"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Heating up"
+			icon: "create:blaze_burner"
+			x: 15.5d
+			y: 6.5d
+			dependencies: ["41A911AEFF0CC86A"]
+			id: "77FE6B1D1BAEA1BC"
+			tasks: [
+				{
+					id: "56B5C03443CD39A3"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+				{
+					id: "195476BFEBADDF21"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+			]
+			rewards: [
+				{
+					id: "25B7A126A8AB7986"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 10
+				}
+				{
+					id: "54971DBFE98DA688"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Something sweet"
+			x: 15.5d
+			y: 8.0d
+			description: [""]
+			dependencies: ["77FE6B1D1BAEA1BC"]
+			id: "060D2BB512D00259"
+			tasks: [{
+				id: "6C9347480F850856"
+				type: "item"
+				item: "create_confectionery:marshmallow"
+			}]
+			rewards: [
+				{
+					id: "1E86DA33F6EA468A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "64F070992FA3631B"
+					type: "item"
+					item: "stainless:steel_ingot"
+				}
+			]
+		}
+		{
+			title: "The right to bear arms"
+			x: 18.5d
+			y: 6.5d
+			dependencies: ["5EBC8B2A45CF6126"]
+			id: "69C08530B3BAE46D"
+			tasks: [{
+				id: "100301AA9FA11E97"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [
+				{
+					id: "06722A3BF40C92F7"
+					type: "item"
+					item: "stainless:steel_ingot"
+					count: 2
+				}
+				{
+					id: "2568E092326C15BF"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 8
+				}
+				{
+					id: "015AEC0BD59C6ED5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Im-press-ive"
+			x: 15.5d
+			y: 5.0d
+			dependencies: ["41A911AEFF0CC86A"]
+			id: "162E4B754957CD82"
+			tasks: [{
+				id: "63056DB8EC8D0CF4"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			title: "The quicker picker upper."
+			x: 17.0d
+			y: 5.0d
+			dependencies: ["162E4B754957CD82"]
+			id: "3DBC3B005A9B4E09"
+			tasks: [{
+				id: "2A78FE4E261D8344"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [{
+				id: "2C5AAF8B54C136E9"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 8
+			}]
+		}
+	]
+}

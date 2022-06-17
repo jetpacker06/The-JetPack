@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "supplementaries:netherite_door"
+    },
+    {
+      "item": "supplementaries:netherite_trapdoor"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_debris",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "time": 200
+}

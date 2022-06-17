@@ -1,0 +1,113 @@
+{
+	id: "473DD5A655849604"
+	group: ""
+	order_index: 2
+	filename: "good_luck"
+	title: "Good luck"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Obtain all vanilla music discs."
+			x: -1.0d
+			y: -0.5d
+			id: "43D969B06F52679C"
+			tasks: [
+				{
+					id: "5361AB676DFE162E"
+					type: "item"
+					item: "minecraft:music_disc_13"
+				}
+				{
+					id: "7DE1E823AF86A26A"
+					type: "item"
+					item: "minecraft:music_disc_cat"
+				}
+				{
+					id: "4A398AF5A224A0D5"
+					type: "item"
+					item: "minecraft:music_disc_blocks"
+				}
+				{
+					id: "3DD0BE62C7B7AA2F"
+					type: "item"
+					item: "minecraft:music_disc_chirp"
+				}
+				{
+					id: "23E407F13F77F407"
+					type: "item"
+					item: "minecraft:music_disc_far"
+				}
+				{
+					id: "0DFA39112BF1A941"
+					type: "item"
+					item: "minecraft:music_disc_mall"
+				}
+				{
+					id: "6F6854D6F46997BC"
+					type: "item"
+					item: "minecraft:music_disc_mellohi"
+				}
+				{
+					id: "79825D03A4C53765"
+					type: "item"
+					item: "minecraft:music_disc_stal"
+				}
+				{
+					id: "5BBB7AFFBB7A9E41"
+					type: "item"
+					item: "minecraft:music_disc_strad"
+				}
+				{
+					id: "451E4319B36C69E8"
+					type: "item"
+					item: "minecraft:music_disc_ward"
+				}
+				{
+					id: "36782F82646516C4"
+					type: "item"
+					item: "minecraft:music_disc_11"
+				}
+				{
+					id: "0C514D1B2F624A8F"
+					type: "item"
+					item: "minecraft:music_disc_wait"
+				}
+				{
+					id: "514DE78A0EF99A95"
+					type: "item"
+					item: "minecraft:music_disc_otherside"
+				}
+				{
+					id: "22F9D1A6D74E130B"
+					type: "item"
+					item: "minecraft:music_disc_pigstep"
+				}
+			]
+			rewards: [{
+				id: "72B2A46170B389D7"
+				type: "item"
+				item: "stainless:doubloon_pile"
+			}]
+		}
+		{
+			title: "Obtain all music discs."
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["43D969B06F52679C"]
+			id: "09103307F1E74DA9"
+			tasks: [
+				{
+					id: "1C5BFD5AABB26350"
+					type: "item"
+					item: "biomesoplenty:music_disc_wanderer"
+				}
+				{
+					id: "1F59DC02AB2171BD"
+					type: "item"
+					item: "create_confectionery:the_bright_side"
+				}
+			]
+		}
+	]
+}

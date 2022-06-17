@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "supplementaries:lead_door"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_lead",
+    "amount": 180
+  },
+  "temperature": 800,
+  "time": 90
+}

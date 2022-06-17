@@ -1,0 +1,5 @@
+{"type":"mekanism:infusion_conversion",
+"input":{"ingredient":[
+{"item":"create:shadow_steel"}]},
+"output":{"infuse_type":"crafttweaker:void",
+"amount":20}}
