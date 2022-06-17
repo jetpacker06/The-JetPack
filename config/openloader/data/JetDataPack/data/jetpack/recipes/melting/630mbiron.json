@@ -2,13 +2,15 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:spring_launcher"
+      "item": "mekanism:logistical_sorter"
+    },
+    {
+      "item": "steampowered:cast_iron_boiler"
     }
-
   ],
   "result": {
     "fluid": "tconstruct:molten_iron",
-    "amount": 720
+    "amount": 630
   },
   "temperature": 800,
   "time": 300

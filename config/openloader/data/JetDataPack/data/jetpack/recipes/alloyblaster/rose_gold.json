@@ -8,11 +8,11 @@
       "item": "minecraft:gold_ingot"
     }
   ],
-  "ingredient1count": 3,
+  "ingredient1count": 1,
   "ingredient2count": 1,
   "ingredient3count": 0,
   "output": {
-    "item": "tconstruct:amethyst_bronze_ingot"
+    "item": "tconstruct:rose_gold_ingot"
   },
-  "outputcount": 4
+  "outputcount": 2
 }

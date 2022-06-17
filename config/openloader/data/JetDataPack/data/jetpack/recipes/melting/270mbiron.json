@@ -2,19 +2,19 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:sconce"
+      "item": "supplementaries:cage"
     },
     {
-      "item":"supplementaries:sconce_lamp"
+      "item": "storagedrawers:compacting_drawers_3"
     },
     {
-      "item":"supplementaries:soul_sconce"
+      "item": "create:mechanical_plough"
     }
   ],
   "result": {
     "fluid": "tconstruct:molten_iron",
-    "amount": 30
+    "amount": 270
   },
   "temperature": 800,
-  "time": 40
+  "time": 160
 }

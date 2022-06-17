@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "mekanism:induction_casing"
+    },
+    {
+      "item": "mekanism:structural_glass"
+    },
+    {
+      "item": "mekanism:dynamic_tank"
+    },
+    {
+      "item": "mekanismgenerators:turbine_casing"
+    },
+    {
+      "item": "steampowered:steel_cogwheel"
+    },
+    {
+      "item": "steampowered:steel_large_cogwheel"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_steel",
+    "amount": 90
+  },
+  "temperature": 950,
+  "time": 320
+}

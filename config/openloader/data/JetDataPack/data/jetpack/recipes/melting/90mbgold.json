@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "supplementaries:crimson_lantern"
+    },
+    {
+      "item": "storagedrawers:controller_slave"
+    },
+    {
+      "item": "create:controller_rail"
+    },
+    {
+      "item": "create:goggles"
+    },
+    {
+      "item": "create:weighted_ejector"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_gold",
+    "amount": 90
+  },
+  "temperature": 700,
+  "time": 200
+}

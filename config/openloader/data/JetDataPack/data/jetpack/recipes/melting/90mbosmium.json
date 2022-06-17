@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "mekanism:gauge_dropper"
+    },
+    {
+      "item": "mekanism:electric_pump"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_osmium",
+    "amount": 90
+  },
+  "temperature": 975,
+  "time": 100
+}

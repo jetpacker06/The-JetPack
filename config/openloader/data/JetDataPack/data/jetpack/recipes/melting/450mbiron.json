@@ -2,21 +2,21 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:faucet"
+      "item": "farmersdelight:cooking_pot"
     },
     {
-      "item": "supplementaries:lock_block"
+      "item": "create:whisk"
     },
     {
-      "item": "create:mechanical_saw"
+      "item": "steampowered:cast_iron_burner"
     },
     {
-      "item": "create:propeller"
+      "item": "steampowered:cast_iron_steam_engine"
     }
   ],
   "result": {
     "fluid": "tconstruct:molten_iron",
-    "amount": 360
+    "amount": 450
   },
   "temperature": 800,
   "time": 200

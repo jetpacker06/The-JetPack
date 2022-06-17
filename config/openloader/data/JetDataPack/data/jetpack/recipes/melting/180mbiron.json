@@ -2,19 +2,19 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:sconce"
+      "item": "storagedrawers:iron_storage_upgrade"
     },
     {
-      "item":"supplementaries:sconce_lamp"
+      "item": "create:item_vault"
     },
     {
-      "item":"supplementaries:soul_sconce"
+      "item": "create:mechanical_harvester"
     }
   ],
   "result": {
     "fluid": "tconstruct:molten_iron",
-    "amount": 30
+    "amount": 180
   },
   "temperature": 800,
-  "time": 40
+  "time": 160
 }

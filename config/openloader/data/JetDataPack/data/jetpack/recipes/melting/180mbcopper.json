@@ -2,12 +2,15 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:cog_block"
+      "item": "storagenetwork:slow_upgrade"
+    },
+    {
+      "item": "create:fluid_tank"
     }
   ],
   "result": {
     "fluid": "tconstruct:molten_copper",
-    "amount": 120
+    "amount": 180
   },
   "temperature": 500,
   "time": 100

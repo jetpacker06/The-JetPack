@@ -2,12 +2,12 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:cog_block"
+      "item": "create:copper_casing"
     }
   ],
   "result": {
     "fluid": "tconstruct:molten_copper",
-    "amount": 120
+    "amount": 45
   },
   "temperature": 500,
   "time": 100

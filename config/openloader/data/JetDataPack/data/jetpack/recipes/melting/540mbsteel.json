@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "mekanismgenerators:turbine_rotor"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_steel",
+    "amount": 540
+  },
+  "temperature": 950,
+  "time": 620
+}

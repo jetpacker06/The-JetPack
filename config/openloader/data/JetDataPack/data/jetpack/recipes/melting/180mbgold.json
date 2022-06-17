@@ -2,6 +2,18 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
+      "item": "storagedrawers:gold_storage_upgrade"
+    },
+    {
+      "item": "supplementaries:hourglass"
+    },
+    {
+      "item": "storagenetwork:speed_upgrade"
+    },
+    {
+      "tag": "create:toolboxes"
+    },
+    {
       "item": "supplementaries:gold_door"
     }
   ],

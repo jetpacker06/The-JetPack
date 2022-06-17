@@ -2,7 +2,13 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:cog_block"
+      "item": "mekanism:supercharged_coil"
+    },
+    {
+      "item": "steampowered:pressurized_gas_container"
+    },
+    {
+      "tag": "create:valve_handles"
     }
   ],
   "result": {

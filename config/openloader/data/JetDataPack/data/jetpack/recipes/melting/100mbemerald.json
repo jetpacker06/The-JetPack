@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "supplementaries:speaker_block"
+    }=
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_emerald",
+    "amount": 100
+  },
+  "temperature": 934,
+  "time": 320
+}

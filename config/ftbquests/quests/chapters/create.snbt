@@ -81,7 +81,7 @@
 		{
 			title: "Switching gears"
 			x: 14.0d
-			y: 5.0d
+			y: 8.0d
 			shape: "gear"
 			dependencies: ["41A911AEFF0CC86A"]
 			id: "42CD7186F0FB3556"
@@ -129,7 +129,7 @@
 			]
 		}
 		{
-			title: "Alloys at last"
+			title: "Brass, Brass, Brass"
 			x: 17.0d
 			y: 6.5d
 			dependencies: ["77FE6B1D1BAEA1BC"]
@@ -154,7 +154,7 @@
 			]
 		}
 		{
-			title: "Heating up"
+			title: "Unethically sourced heat"
 			icon: "create:blaze_burner"
 			x: 15.5d
 			y: 6.5d
@@ -189,7 +189,7 @@
 		{
 			title: "Something sweet"
 			x: 15.5d
-			y: 8.0d
+			y: 5.0d
 			description: [""]
 			dependencies: ["77FE6B1D1BAEA1BC"]
 			id: "060D2BB512D00259"
@@ -244,7 +244,7 @@
 		}
 		{
 			title: "Im-press-ive"
-			x: 15.5d
+			x: 14.0d
 			y: 5.0d
 			dependencies: ["41A911AEFF0CC86A"]
 			id: "162E4B754957CD82"
@@ -256,8 +256,8 @@
 		}
 		{
 			title: "The quicker picker upper."
-			x: 17.0d
-			y: 5.0d
+			x: 15.5d
+			y: 4.0d
 			dependencies: ["162E4B754957CD82"]
 			id: "3DBC3B005A9B4E09"
 			tasks: [{

@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "steampowered:bronze_burner"
+    },
+    {
+      "item": "steampowered:bronze_steam_engine"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_bronze",
+    "amount": 450
+  },
+  "temperature": 700,
+  "time": 400
+}

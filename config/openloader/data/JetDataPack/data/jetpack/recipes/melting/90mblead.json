@@ -2,15 +2,15 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "supplementaries:lead_trapdoor"
+      "item": "supplementaries:lead_lantern"
     },
     {
-      "item": "mekanism:dosimeter"
+      "item": "supplementaries:bomb_spiky"
     }
   ],
   "result": {
     "fluid": "tconstruct:molten_lead",
-    "amount": 360
+    "amount": 90
   },
   "temperature": 330,
   "time": 150
