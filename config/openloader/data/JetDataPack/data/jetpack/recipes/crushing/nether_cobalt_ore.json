@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "tconstruct:nether_cobalt_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:crushed_cobalt_ore",
+      "count": 2
+    },
+    {
+      "item": "tconstruct:crushed_cobalt_ore",
+      "chance": 0.25
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350
+}

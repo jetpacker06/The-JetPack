@@ -3,7 +3,7 @@
   "ingredient": [
     {
       "item": "supplementaries:speaker_block"
-    }=
+    }
   ],
   "result": {
     "fluid": "tconstruct:molten_emerald",

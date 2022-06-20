@@ -1,0 +1,21 @@
+{
+  "type": "stainless:alloy_blasting",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "ingredient1count": 2,
+  "ingredient2count": 1,
+  "ingredient3count": 1,
+  "output": {
+    "item": "extendedcrafting:luminessence"
+  },
+  "outputcount": 2
+}

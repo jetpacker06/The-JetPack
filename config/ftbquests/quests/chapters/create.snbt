@@ -80,7 +80,8 @@
 		}
 		{
 			title: "Switching gears"
-			x: 14.0d
+			icon: "steampowered:steel_cogwheel"
+			x: 15.5d
 			y: 8.0d
 			shape: "gear"
 			dependencies: ["41A911AEFF0CC86A"]
@@ -253,11 +254,16 @@
 				type: "item"
 				item: "create:mechanical_press"
 			}]
+			rewards: [{
+				id: "4B9AF2370D041E60"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 		}
 		{
-			title: "The quicker picker upper."
+			title: "The quicker picker upper"
 			x: 15.5d
-			y: 4.0d
+			y: 3.5d
 			dependencies: ["162E4B754957CD82"]
 			id: "3DBC3B005A9B4E09"
 			tasks: [{
@@ -265,11 +271,50 @@
 				type: "item"
 				item: "create:wrench"
 			}]
-			rewards: [{
-				id: "2C5AAF8B54C136E9"
+			rewards: [
+				{
+					id: "2C5AAF8B54C136E9"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+				{
+					id: "407C172EC5BA3211"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Hot and Steamy"
+			x: 17.0d
+			y: 8.0d
+			dependencies: ["42CD7186F0FB3556"]
+			id: "5E904A2426BBFE0B"
+			tasks: [{
+				id: "65FCA879CBF40686"
 				type: "item"
-				item: "minecraft:gold_ingot"
-				count: 8
+				item: "steampowered:pressurized_steam_container"
+			}]
+		}
+		{
+			title: "Fly me to the moon"
+			icon: "steampowered:steel_flywheel"
+			x: 18.5d
+			y: 8.0d
+			dependencies: ["5E904A2426BBFE0B"]
+			id: "64719736F8AA9408"
+			tasks: [{
+				id: "1B1A1363FB325106"
+				type: "item"
+				title: "Any #jetpack:steam_flywheels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "jetpack:steam_flywheels"
+					}
+				}
 			}]
 		}
 	]

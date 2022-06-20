@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.queens_slime",
+  "colors": [
+    "266e16",
+    "bd9208"
+  ],
+  "ingredient": {
+    "item": "tconstruct:queens_slime_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.slimesteel",
+  "colors": [
+    "00bdd6",
+    "084952"
+  ],
+  "ingredient": {
+    "item": "tconstruct:slimesteel_ingot"
+  }
+}

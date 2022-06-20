@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.amethyst",
+  "colors": [
+    "dd5dfc",
+    "913da6"
+  ],
+  "ingredient": {
+    "item": "minecraft:emerald"
+  }
+}

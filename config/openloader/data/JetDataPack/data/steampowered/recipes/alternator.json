@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " IEI ",
+    "ILILI",
+    "ELALE",
+    "ILILI",
+    " IEI "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "L": {
+      "tag": "forge:plates/copper"
+    },
+    "A":{
+      "item": "create:mechanical_arm"
+    }
+  },
+  "result": {
+    "item": "steampowered:alternator"
+  }
+}

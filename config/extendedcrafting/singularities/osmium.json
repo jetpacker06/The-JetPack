@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.osmium",
+  "colors": [
+    "869dcf",
+    "374157"
+  ],
+  "ingredient": {
+    "item": "mekanism:osmium_ingot"
+  }
+}

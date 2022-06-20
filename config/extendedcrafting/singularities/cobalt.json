@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.cobalt",
+  "colors": [
+    "2600ff",
+    "000000"
+  ],
+  "ingredient": {
+    "item": "tconstruct:cobalt_ingot"
+  }
+}

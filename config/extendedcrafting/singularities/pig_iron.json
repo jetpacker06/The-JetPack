@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.pig_iron",
+  "colors": [
+    "FF92A5",
+    "382024"
+  ],
+  "ingredient": {
+    "item": "tconstruct:pig_iron_ingot"
+  }
+}

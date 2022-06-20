@@ -3,6 +3,9 @@
   "ingredient": [
     {
       "item": "minecraft:hopper_minecart"
+    },
+    {
+      "item": "steampowered:alternator"
     }
   ],
   "result": {

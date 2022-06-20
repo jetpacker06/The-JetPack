@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.hepatizon",
+  "colors": [
+    "2d0a33",
+    "140517"
+  ],
+  "ingredient": {
+    "item": "tconstruct:hepatizon_ingot"
+  }
+}

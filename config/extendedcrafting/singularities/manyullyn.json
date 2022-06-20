@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.manyullyn",
+  "colors": [
+    "4f128a",
+    "150624"
+  ],
+  "ingredient": {
+    "item": "tconstruct:manyullyn_ingot"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.rose_gold",
+  "colors": [
+    "ffa7a6",
+    "734b4b"
+  ],
+  "ingredient": {
+    "item": "tconstruct:rose_gold_ingot"
+  }
+}

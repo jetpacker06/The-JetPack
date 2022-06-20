@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.amethyst_bronze",
+  "colors": [
+    "c85de8",
+    "342740"
+  ],
+  "ingredient": {
+    "item": "tconstruct:amethyst_bronze_ingot"
+  }
+}

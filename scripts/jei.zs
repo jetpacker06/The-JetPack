@@ -12,9 +12,12 @@ JEI.hideIngredient(<item:stainless:steel_shovel>);
 JEI.hideIngredient(<item:stainless:steel_hoe>);
 JEI.hideIngredient(<item:stainless:steel_nugget>);
 JEI.hideIngredient(<item:create:copper_nugget>);
+JEI.hideIngredient(<item:extendedcrafting:recipe_maker>);
 
 JEI.addIngredient(<item:create:chromatic_compound>);
 JEI.addIngredient(<item:create:shadow_steel>);
 JEI.addIngredient(<item:create:refined_radiance>);
 JEI.addIngredient(<item:create:shadow_steel_casing>);
 JEI.addIngredient(<item:create:refined_radiance_casing>);
+JEI.addIngredient(<item:steampowered:pressurized_steam_container>);
+JEI.addIngredient(<item:steampowered:pressurized_gas_container>);
