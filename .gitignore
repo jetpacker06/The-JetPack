@@ -1,0 +1,17 @@
+/.idea/
+/local/ftbchunks/
+/mods/
+/logs/
+/resourcepacks/
+/saves/New World/
+/screenshots/
+/simple-rpc/
+/.curseclient
+/servers.dat
+/servers.dat_old
+/usercache.json
+/minecraftinstance.json
+/usernamecache.json
+/TrashSlotSaveState.json
+/options.txt
+/patchouli_data.json
