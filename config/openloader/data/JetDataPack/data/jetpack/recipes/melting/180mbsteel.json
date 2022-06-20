@@ -2,7 +2,7 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
-      "item": "mekanism:chargepag"
+      "item": "mekanism:chargepad"
     }
   ],
   "result": {

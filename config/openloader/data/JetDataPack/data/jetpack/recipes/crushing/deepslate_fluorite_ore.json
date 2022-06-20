@@ -2,7 +2,7 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "tconstruct:fluorite_ore"
+      "item": "mekanism:deepslate_fluorite_ore"
     }
   ],
   "results": [

@@ -2,24 +2,25 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "tconstruct:nether_cobalt_ore"
+      "item": "tconstruct:cobalt_ore"
     }
   ],
   "results": [
     {
-      "item": "tconstruct:crushed_cobalt_ore",
-      "count": 2
+      "item": "tconstruct:cobalt_nugget",
+      "count": 22
     },
     {
-      "item": "tconstruct:crushed_cobalt_ore",
-      "chance": 0.25
+      "item": "tconstruct:cobalt_nugget",
+      "count": 4,
+      "chance": 0.5
     },
     {
       "item": "create:experience_nugget",
       "chance": 0.75
     },
     {
-      "item": "minecraft:cobblestone",
+      "item": "minecraft:netherrack",
       "chance": 0.125
     }
   ],

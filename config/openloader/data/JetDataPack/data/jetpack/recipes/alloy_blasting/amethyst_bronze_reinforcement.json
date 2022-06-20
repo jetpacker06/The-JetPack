@@ -12,7 +12,7 @@
   "ingredient2count": 1,
   "ingredient3count": 0,
   "output": {
-    "item": "tconstruct:amethyst_bronze_reinforcement"
+    "item": "tconstruct:bronze_reinforcement"
   },
   "outputcount": 1
 }

@@ -5,6 +5,6 @@
     "374157"
   ],
   "ingredient": {
-    "item": "mekanism:osmium_ingot"
+    "tag": "forge:ingots/osmium"
   }
 }
