@@ -77,7 +77,7 @@
 			title: "Iron set"
 			icon: "minecraft:iron_ingot"
 			x: -8.5d
-			y: -4.0d
+			y: -3.0d
 			id: "31B2437B7DE8397E"
 			tasks: [
 				{
@@ -130,7 +130,7 @@
 			title: "Gold set"
 			icon: "minecraft:gold_ingot"
 			x: -7.0d
-			y: -2.0d
+			y: -1.0d
 			id: "377E2E7065A7DCD3"
 			tasks: [
 				{
@@ -236,7 +236,7 @@
 			title: "Diamond set"
 			icon: "minecraft:diamond"
 			x: -8.0d
-			y: -3.0d
+			y: -2.0d
 			id: "322747B949208A2D"
 			tasks: [
 				{
@@ -389,7 +389,7 @@
 			title: "Bronze set"
 			icon: "mekanism:ingot_bronze"
 			x: -5.0d
-			y: -1.5d
+			y: -0.5d
 			id: "2537493EE55985CF"
 			tasks: [
 				{
@@ -442,7 +442,7 @@
 			title: "Lapis set"
 			icon: "minecraft:lapis_lazuli"
 			x: -3.0d
-			y: -2.0d
+			y: -1.0d
 			id: "4E7322F457B2F0B6"
 			tasks: [
 				{
@@ -495,7 +495,7 @@
 			title: "Osmium set"
 			icon: "mekanism:ingot_osmium"
 			x: -2.0d
-			y: -3.0d
+			y: -2.0d
 			id: "68F8838720137390"
 			tasks: [
 				{
@@ -548,7 +548,7 @@
 			title: "Refined Glowstone set"
 			icon: "mekanism:ingot_refined_glowstone"
 			x: -4.0d
-			y: -1.5d
+			y: -0.5d
 			id: "4B81DD86A55B7EF9"
 			tasks: [
 				{
@@ -654,7 +654,7 @@
 			title: "Steel set"
 			icon: "mekanism:ingot_steel"
 			x: -6.0d
-			y: -1.5d
+			y: -0.5d
 			id: "0883FC5D7A37D7D7"
 			tasks: [
 				{
@@ -1065,7 +1065,7 @@
 			title: "MekaSuit"
 			icon: "mekanism:ultimate_control_circuit"
 			x: -1.5d
-			y: -4.0d
+			y: -3.0d
 			id: "735815E18F90CEE4"
 			tasks: [
 				{
@@ -1100,7 +1100,7 @@
 				}
 			}
 			x: -5.0d
-			y: -4.5d
+			y: -4.0d
 			dependencies: [
 				"2537493EE55985CF"
 				"322747B949208A2D"
@@ -1123,9 +1123,9 @@
 			]
 			id: "14003E67F504B319"
 			tasks: [{
-				id: "47830A04AF91A773"
-				type: "custom"
-				title: "Obtain all armor sets."
+				id: "278DFAAEF931DDFA"
+				type: "checkmark"
+				title: "Collect all armor sets."
 				icon: {
 					id: "minecraft:netherite_chestplate"
 					Count: 1b
@@ -1135,10 +1135,9 @@
 				}
 			}]
 			rewards: [{
-				id: "76CA211F99A067B5"
+				id: "2E2143ECC3C22103"
 				type: "item"
 				item: "stainless:doubloon_pile"
-				count: 4
 			}]
 		}
 		{
@@ -1169,6 +1168,62 @@
 					item: "mekanism:hazmat_boots"
 				}
 			]
+		}
+		{
+			title: "Mekanism gear"
+			icon: "mekanism:jetpack"
+			x: -1.5d
+			y: -4.0d
+			id: "6AD72C53F791ED3A"
+			tasks: [
+				{
+					id: "19D382BFF7C57CC4"
+					type: "item"
+					item: "mekanism:jetpack_armored"
+				}
+				{
+					id: "040EE81CE8EA8CBF"
+					type: "item"
+					item: "mekanism:free_runners"
+				}
+				{
+					id: "13B904401D4E6AA6"
+					type: "item"
+					item: {
+						id: "mekanism:hdpe_elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08408BA58A758F00"
+					type: "item"
+					item: "mekanism:scuba_mask"
+				}
+				{
+					id: "4E336EE1DCCED0FC"
+					type: "item"
+					item: "mekanism:scuba_tank"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			id: "6B8C400D94691755"
+			tasks: [{
+				id: "6EA5CC36B817CFB4"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

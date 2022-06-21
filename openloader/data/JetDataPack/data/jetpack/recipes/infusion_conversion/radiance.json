@@ -1,5 +1,14 @@
-{"type":"mekanism:infusion_conversion",
-"input":{"ingredient":[
-{"item":"create:refined_radiance"}]},
-"output":{"infuse_type":"crafttweaker:radiance",
-"amount":20}}
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": [
+      {
+        "item": "create:refined_radiance"
+      }
+    ]
+  },
+  "output": {
+    "infuse_type": "crafttweaker:radiance",
+    "amount": 20
+  }
+}

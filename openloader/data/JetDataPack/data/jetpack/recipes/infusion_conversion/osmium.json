@@ -3,12 +3,12 @@
   "input": {
     "ingredient": [
       {
-        "item": "create:shadow_steel"
+        "item": "mekanism:ingot_osmium"
       }
     ]
   },
   "output": {
-    "infuse_type": "crafttweaker:void",
-    "amount": 20
+    "infuse_type": "crafttweaker:osmium",
+    "amount": 200
   }
 }

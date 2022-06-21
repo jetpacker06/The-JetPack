@@ -1,17 +1,202 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
+      "item": "stainless:steel_ingot"
+    },
+    {
       "item": "stainless:steel_ingot"
     }
-  },
-  "result": {
-    "item": "stainless:doubloon_pile",
-    "count": 1
-  }
+  ],
+  "results": [
+    {
+      "item": "stainless:doubloon_pile"
+    }
+  ]
 }

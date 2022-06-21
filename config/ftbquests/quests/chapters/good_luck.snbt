@@ -4,6 +4,7 @@
 	order_index: 2
 	filename: "good_luck"
 	title: "Good luck"
+	icon: "extendedcrafting:ultimate_singularity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -106,6 +107,70 @@
 					id: "1F59DC02AB2171BD"
 					type: "item"
 					item: "create_confectionery:the_bright_side"
+				}
+			]
+		}
+		{
+			title: "Ore hoarder"
+			x: 0.5d
+			y: -0.5d
+			id: "75F9628BFEF72915"
+			tasks: [{
+				id: "6E2E643519356D89"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			title: "Factory expert"
+			x: 0.5d
+			y: 1.0d
+			id: "318A29B789DB3875"
+			tasks: [
+				{
+					id: "03504609F62146A7"
+					type: "item"
+					item: "mekanism:ultimate_smelting_factory"
+				}
+				{
+					id: "789427212AA35916"
+					type: "item"
+					item: "mekanism:ultimate_enriching_factory"
+				}
+				{
+					id: "7F611D449D483D46"
+					type: "item"
+					item: "mekanism:ultimate_crushing_factory"
+				}
+				{
+					id: "72564C474A6D890B"
+					type: "item"
+					item: "mekanism:ultimate_compressing_factory"
+				}
+				{
+					id: "34FA2FA0B2D895FF"
+					type: "item"
+					item: "mekanism:ultimate_combining_factory"
+				}
+				{
+					id: "5E61D9FFCDCD932F"
+					type: "item"
+					item: "mekanism:ultimate_purifying_factory"
+				}
+				{
+					id: "1F75BB91DEFD23E7"
+					type: "item"
+					item: "mekanism:ultimate_injecting_factory"
+				}
+				{
+					id: "5A2300DA343A8FD0"
+					type: "item"
+					item: "mekanism:ultimate_infusing_factory"
+				}
+				{
+					id: "221EA114E885060B"
+					type: "item"
+					item: "mekanism:ultimate_sawing_factory"
 				}
 			]
 		}

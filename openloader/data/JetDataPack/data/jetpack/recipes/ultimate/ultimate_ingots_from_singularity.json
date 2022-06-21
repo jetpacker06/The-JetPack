@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "stainless:doubloon_pile"
+      "item": "extendedcrafting:ultimate_singularity"
     }
   },
   "result": {
-    "item": "stainless:steel_ingot",
-    "count": 64
+    "item": "extendedcrafting:the_ultimate_ingot",
+    "count": 24
   }
 }

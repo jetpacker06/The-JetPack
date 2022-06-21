@@ -3,7 +3,8 @@
 	group: ""
 	order_index: 1
 	filename: "micro_mods"
-	title: "Micro Mods"
+	title: "Mini Mods"
+	icon: "minecraft:iron_nugget"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -62,6 +63,70 @@
 				id: "22C4744B17DB1784"
 				type: "item"
 				item: "stainless:steel_ingot"
+			}]
+		}
+		{
+			title: "Structure Eyes"
+			x: -2.0d
+			y: -1.0d
+			id: "665E5EA10CBE7B25"
+			tasks: [{
+				id: "7A379BF9D17EE687"
+				type: "item"
+				title: "Any #jetpack:structure_eyes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "jetpack:structure_eyes"
+					}
+				}
+			}]
+		}
+		{
+			title: "Inventory Sorter"
+			x: -1.0d
+			y: -2.0d
+			description: ["Middle click on an inventory to sort it."]
+			id: "0830BA53E915DAC9"
+			tasks: [{
+				id: "0F900C859AEE773A"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["Shift-right-click certain containers or mobs to pick them up."]
+			id: "75095D5FE881E4A6"
+			tasks: [{
+				id: "59BEC701B38D3C69"
+				type: "checkmark"
+				title: "Carry-On"
+			}]
+		}
+		{
+			title: "Ender Storage"
+			icon: "enderstorage:ender_chest"
+			x: 0.0d
+			y: -2.0d
+			description: ["Transport items long distances or interdimensionally with ease."]
+			id: "51A22B5362729594"
+			tasks: [{
+				id: "138A04A370DA28C1"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["Press F7 to see if a block is dark enough to spawn monsters."]
+			id: "450A54BAC810A48D"
+			tasks: [{
+				id: "0B23DAA0F229F6C9"
+				type: "checkmark"
+				title: "Light Overlay"
 			}]
 		}
 	]

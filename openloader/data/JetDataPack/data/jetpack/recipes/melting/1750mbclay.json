@@ -2,6 +2,9 @@
   "type": "tconstruct:melting",
   "ingredient": [
     {
+      "item": "supplementaries:planter"
+    },
+    {
       "item": "supplementaries:planter_rich"
     }
   ],

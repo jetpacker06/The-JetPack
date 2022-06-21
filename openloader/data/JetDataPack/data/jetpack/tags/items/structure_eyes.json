@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "structureeyes:village_eye",
+    "structureeyes:end_city_eye",
+    "structureeyes:fortress_eye",
+    "structureeyes:bastion_remnant_eye"
+  ]
+}

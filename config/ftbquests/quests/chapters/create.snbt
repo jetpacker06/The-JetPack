@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "create"
-	title: "Create"
+	title: "Making progress."
 	icon: {
 		id: "create:chromatic_compound"
 		Count: 1b
@@ -17,7 +17,6 @@
 			icon: "create:andesite_alloy"
 			x: 12.5d
 			y: 6.5d
-			shape: "square"
 			id: "13C3B32944FBC2A8"
 			tasks: [
 				{
@@ -84,6 +83,7 @@
 			x: 15.5d
 			y: 8.0d
 			shape: "gear"
+			description: ["Create: Steampowered introduces a new method of Stress Unit production."]
 			dependencies: ["41A911AEFF0CC86A"]
 			id: "42CD7186F0FB3556"
 			tasks: [
@@ -126,11 +126,12 @@
 					id: "198B3EAD0EA0DF77"
 					type: "item"
 					item: "stainless:steel_ingot"
+					count: 8
 				}
 			]
 		}
 		{
-			title: "Brass, Brass, Brass"
+			title: "Alloys I"
 			x: 17.0d
 			y: 6.5d
 			dependencies: ["77FE6B1D1BAEA1BC"]
@@ -191,7 +192,10 @@
 			title: "Something sweet"
 			x: 15.5d
 			y: 5.0d
-			description: [""]
+			description: [
+				""
+				"Create: Confectionery introduces many sugary foods to Create."
+			]
 			dependencies: ["77FE6B1D1BAEA1BC"]
 			id: "060D2BB512D00259"
 			tasks: [{
@@ -209,37 +213,7 @@
 					id: "64F070992FA3631B"
 					type: "item"
 					item: "stainless:steel_ingot"
-				}
-			]
-		}
-		{
-			title: "The right to bear arms"
-			x: 18.5d
-			y: 6.5d
-			dependencies: ["5EBC8B2A45CF6126"]
-			id: "69C08530B3BAE46D"
-			tasks: [{
-				id: "100301AA9FA11E97"
-				type: "item"
-				item: "create:mechanical_arm"
-			}]
-			rewards: [
-				{
-					id: "06722A3BF40C92F7"
-					type: "item"
-					item: "stainless:steel_ingot"
-					count: 2
-				}
-				{
-					id: "2568E092326C15BF"
-					type: "item"
-					item: "create:brass_ingot"
 					count: 8
-				}
-				{
-					id: "015AEC0BD59C6ED5"
-					type: "xp_levels"
-					xp_levels: 5
 				}
 			]
 		}
@@ -315,6 +289,192 @@
 						value: "jetpack:steam_flywheels"
 					}
 				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: 6.5d
+			dependencies: ["5EBC8B2A45CF6126"]
+			id: "5946F0433E5C94FF"
+			tasks: [{
+				id: "240E8EE43AC65960"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [
+				{
+					id: "50C5A17716493E81"
+					type: "item"
+					item: "stainless:doubloon_pile"
+				}
+				{
+					id: "21D1EE0566152623"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "High-tech"
+			x: 17.0d
+			y: 5.0d
+			dependencies: [
+				"5EBC8B2A45CF6126"
+				"5946F0433E5C94FF"
+			]
+			id: "6FBF9F1B98E919CF"
+			tasks: [
+				{
+					id: "12A909D9AC95E86F"
+					type: "item"
+					title: "Social distancing"
+					item: {
+						id: "create:extendo_grip"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00BCD995EAA7285D"
+					type: "item"
+					title: "The right to bear arms"
+					item: "create:mechanical_arm"
+				}
+			]
+			rewards: [
+				{
+					id: "002046B8E2A48C15"
+					type: "item"
+					item: "stainless:steel_ingot"
+					count: 16
+				}
+				{
+					id: "1FF0D3F21A21E18A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Renewable energy"
+			x: 20.0d
+			y: 8.0d
+			dependencies: ["64719736F8AA9408"]
+			id: "39BD7EF22001E9F5"
+			tasks: [{
+				id: "16A3DD3994882B5D"
+				type: "item"
+				item: "steampowered:alternator"
+			}]
+			rewards: [{
+				id: "056F55982180AAA6"
+				type: "item"
+				item: "stainless:steel_ingot"
+				count: 16
+			}]
+		}
+		{
+			title: "I Want To Be A Machine"
+			x: 20.0d
+			y: 6.5d
+			dependencies: [
+				"5946F0433E5C94FF"
+				"5CDF6331B1A0E681"
+			]
+			id: "1B757AB7FF05F8C1"
+			tasks: [{
+				id: "526FED2163C02BCD"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+		}
+		{
+			title: "Alloys II"
+			x: 20.0d
+			y: 5.0d
+			id: "5CDF6331B1A0E681"
+			tasks: [{
+				id: "02A9182A8CF58A26"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 5.0d
+			dependencies: ["5CDF6331B1A0E681"]
+			id: "3E49116B086B8DA3"
+			tasks: [{
+				id: "5EB2C3154DCEE926"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 6.5d
+			description: [""]
+			dependencies: [
+				"3E49116B086B8DA3"
+				"1B757AB7FF05F8C1"
+			]
+			id: "2A56D9E6453EC278"
+			tasks: [{
+				id: "78CF1BA46CD45D1C"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 6.5d
+			dependencies: [
+				"2A56D9E6453EC278"
+				"04EE282C896AB3AB"
+			]
+			id: "7C15A81253D76974"
+			tasks: [{
+				id: "2AA5FB7AA4DEFB65"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 6.5d
+			dependencies: [
+				"488F04BEEFBF553E"
+				"7C15A81253D76974"
+			]
+			id: "55DC40BAD088D019"
+			tasks: [{
+				id: "29FB7F331F5D7605"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 5.0d
+			dependencies: ["3E49116B086B8DA3"]
+			id: "04EE282C896AB3AB"
+			tasks: [{
+				id: "725C34E74E189ACD"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 5.0d
+			dependencies: ["04EE282C896AB3AB"]
+			id: "488F04BEEFBF553E"
+			tasks: [{
+				id: "5B41E9ED8187CC58"
+				type: "item"
+				item: "mekanism:alloy_atomic"
 			}]
 		}
 	]

@@ -4,6 +4,7 @@
 	order_index: 4
 	filename: "oredictionary"
 	title: "Oredictionary?"
+	icon: "minecraft:iron_ore"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -18,8 +19,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.5d
+			x: -3.5d
+			y: -5.5d
 			id: "6555577B61C2C647"
 			tasks: [{
 				id: "4AFF527BE0EF6750"
@@ -28,8 +29,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -4.5d
+			x: -2.5d
+			y: -6.5d
 			id: "3237768DC36C1A77"
 			tasks: [{
 				id: "32732ABEA0D19DBB"
@@ -38,8 +39,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.5d
+			x: -0.5d
+			y: -7.0d
 			id: "4AB6D020E271861C"
 			tasks: [{
 				id: "693FC2161DD2E02A"
@@ -48,8 +49,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -4.5d
+			x: 0.5d
+			y: -6.5d
 			id: "36B04EBDA8E99D5E"
 			tasks: [{
 				id: "5A471004926DDA13"
@@ -58,8 +59,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -4.5d
+			x: -1.5d
+			y: -7.0d
 			id: "4EFBB79FF855450C"
 			tasks: [{
 				id: "168039DF1DA3CDD4"
@@ -68,8 +69,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.5d
+			x: 1.5d
+			y: -5.5d
 			id: "63731289E8B09B82"
 			tasks: [{
 				id: "4BCEC1EEEBCFB112"
@@ -78,7 +79,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.0d
 			y: -4.5d
 			id: "14FF81F3560CB2DE"
 			tasks: [{
@@ -88,8 +89,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -4.5d
+			x: 2.0d
+			y: -3.5d
 			id: "159C5AC50CD7220F"
 			tasks: [{
 				id: "0ED5267284A4878F"
@@ -98,8 +99,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -3.5d
+			x: -3.5d
+			y: -2.5d
 			id: "5E57F99EBF962941"
 			tasks: [{
 				id: "5956A25901EF9F8C"
@@ -108,8 +109,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -3.5d
+			x: -2.5d
+			y: -1.5d
 			id: "1713EAAF02F146F2"
 			tasks: [{
 				id: "23D639541FFA73E4"
@@ -118,8 +119,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: -1.5d
+			y: -1.0d
 			id: "4F84E68C148C60F3"
 			tasks: [{
 				id: "776EE38488CA6FBB"
@@ -128,8 +129,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -3.5d
+			x: -0.5d
+			y: -1.0d
 			id: "744D8DCA84F936EC"
 			tasks: [{
 				id: "53004945C43B0645"
@@ -138,8 +139,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: 0.5d
+			y: -1.5d
 			id: "2D0E5644B1243164"
 			tasks: [{
 				id: "4874CF099EBDBE1A"
@@ -148,13 +149,58 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -3.5d
+			x: 1.5d
+			y: -2.5d
 			id: "519FF216B605FA79"
 			tasks: [{
 				id: "498B0558B02BDD53"
 				type: "item"
 				item: "mekanism:ingot_lead"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			id: "446DCCF1CF1A03DC"
+			tasks: [{
+				id: "0A4A4ED9BC12F5E0"
+				type: "item"
+				item: "minecraft:amethyst_shard"
+			}]
+		}
+		{
+			title: "Ore collector"
+			icon: "minecraft:iron_block"
+			x: -1.0d
+			y: -4.0d
+			dependencies: [
+				"5E57F99EBF962941"
+				"4EFBB79FF855450C"
+				"3237768DC36C1A77"
+				"6555577B61C2C647"
+				"519FF216B605FA79"
+				"1713EAAF02F146F2"
+				"4F84E68C148C60F3"
+				"744D8DCA84F936EC"
+				"63731289E8B09B82"
+				"446DCCF1CF1A03DC"
+				"670B76ECB1CC2A04"
+				"14FF81F3560CB2DE"
+				"4AB6D020E271861C"
+				"36B04EBDA8E99D5E"
+				"159C5AC50CD7220F"
+				"2D0E5644B1243164"
+			]
+			id: "526C6C2301539706"
+			tasks: [{
+				id: "5FF051B874AD5184"
+				type: "checkmark"
+				title: "Collect all ores."
+			}]
+			rewards: [{
+				id: "535603A4DB558DD0"
+				type: "item"
+				item: "stainless:doubloon_pile"
 			}]
 		}
 	]

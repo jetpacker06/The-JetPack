@@ -3,7 +3,7 @@
   "pattern": [
     " IEI ",
     "ILILI",
-    "ELALE",
+    "ELFLE",
     "ILILI",
     " IEI "
   ],
@@ -17,8 +17,8 @@
     "L": {
       "tag": "forge:plates/copper"
     },
-    "A":{
-      "item": "create:mechanical_arm"
+    "F":{
+      "tag": "jetpack:steam_flywheels"
     }
   },
   "result": {
