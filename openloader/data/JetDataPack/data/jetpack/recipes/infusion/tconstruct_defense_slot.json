@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "itemInput": {
+    "ingredient": {
+      "item": "mekanismtools:steel_chestplate"
+    }
+  },
+  "chemicalInput": {
+    "amount": 200,
+    "infuse_type": "crafttweaker:refined_mineral"
+  },
+  "output": {
+    "item": "tconstruct:creative_slot",
+    "nbt": {"slot": "defense"},
+    "count": 1
+  }
+}

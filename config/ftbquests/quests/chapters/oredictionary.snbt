@@ -1,9 +1,9 @@
 {
 	id: "466962F01359736D"
 	group: ""
-	order_index: 4
+	order_index: 3
 	filename: "oredictionary"
-	title: "Oredictionary?"
+	title: "Heart of the Mountain"
 	icon: "minecraft:iron_ore"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -193,9 +193,9 @@
 			]
 			id: "526C6C2301539706"
 			tasks: [{
-				id: "5FF051B874AD5184"
+				id: "772D5D49560255FD"
 				type: "checkmark"
-				title: "Collect all ores."
+				title: "Collect all minerals."
 			}]
 			rewards: [{
 				id: "535603A4DB558DD0"

@@ -1,5 +1,6 @@
 {
   "infuse_type.crafttweaker.void":"Void",
   "infuse_type.crafttweaker.radiance":"Radiance",
-  "infuse_type.crafttweaker.osmium":"Osmium"
+  "infuse_type.crafttweaker.osmium":"Osmium",
+  "infuse_type.crafttweaker.refined_mineral":"Refined Mineral"
 }

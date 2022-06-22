@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "chemicalInput": {
+    "amount": 200,
+    "infuse_type": "crafttweaker:void"
+  },
+  "output": {
+    "item": "tconstruct:creative_slot",
+    "nbt": {"slot": "abilities"},
+    "count": 1
+  }
+}

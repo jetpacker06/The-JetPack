@@ -6,7 +6,7 @@
     }
   },
   "chemicalInput": {
-    "amount": 20,
+    "amount": 800,
     "infuse_type": "crafttweaker:osmium"
   },
   "output": {

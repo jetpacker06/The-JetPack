@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "create"
-	title: "Making progress."
+	title: "Home"
 	icon: {
 		id: "create:chromatic_compound"
 		Count: 1b
@@ -80,7 +80,7 @@
 		{
 			title: "Switching gears"
 			icon: "steampowered:steel_cogwheel"
-			x: 15.5d
+			x: 14.0d
 			y: 8.0d
 			shape: "gear"
 			description: ["Create: Steampowered introduces a new method of Stress Unit production."]
@@ -260,9 +260,9 @@
 			]
 		}
 		{
-			title: "Hot and Steamy"
-			x: 17.0d
-			y: 8.0d
+			title: "Hot and steamy"
+			x: 15.5d
+			y: 9.5d
 			dependencies: ["42CD7186F0FB3556"]
 			id: "5E904A2426BBFE0B"
 			tasks: [{
@@ -274,7 +274,7 @@
 		{
 			title: "Fly me to the moon"
 			icon: "steampowered:steel_flywheel"
-			x: 18.5d
+			x: 17.0d
 			y: 8.0d
 			dependencies: ["5E904A2426BBFE0B"]
 			id: "64719736F8AA9408"
@@ -292,6 +292,7 @@
 			}]
 		}
 		{
+			title: "Circuits I"
 			x: 18.5d
 			y: 6.5d
 			dependencies: ["5EBC8B2A45CF6126"]
@@ -359,7 +360,7 @@
 		}
 		{
 			title: "Renewable energy"
-			x: 20.0d
+			x: 18.5d
 			y: 8.0d
 			dependencies: ["64719736F8AA9408"]
 			id: "39BD7EF22001E9F5"
@@ -376,7 +377,7 @@
 			}]
 		}
 		{
-			title: "I Want To Be A Machine"
+			title: "Circuits II"
 			x: 20.0d
 			y: 6.5d
 			dependencies: [
@@ -402,6 +403,7 @@
 			}]
 		}
 		{
+			title: "Alloys III"
 			x: 21.5d
 			y: 5.0d
 			dependencies: ["5CDF6331B1A0E681"]
@@ -413,6 +415,7 @@
 			}]
 		}
 		{
+			title: "Circuits III"
 			x: 21.5d
 			y: 6.5d
 			description: [""]
@@ -428,6 +431,7 @@
 			}]
 		}
 		{
+			title: "Circuits IV"
 			x: 23.0d
 			y: 6.5d
 			dependencies: [
@@ -442,6 +446,7 @@
 			}]
 		}
 		{
+			title: "Circuits V"
 			x: 24.5d
 			y: 6.5d
 			dependencies: [
@@ -456,6 +461,7 @@
 			}]
 		}
 		{
+			title: "Alloys IV"
 			x: 23.0d
 			y: 5.0d
 			dependencies: ["3E49116B086B8DA3"]
@@ -467,6 +473,7 @@
 			}]
 		}
 		{
+			title: "Alloys V"
 			x: 24.5d
 			y: 5.0d
 			dependencies: ["04EE282C896AB3AB"]
@@ -475,6 +482,83 @@
 				id: "5B41E9ED8187CC58"
 				type: "item"
 				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			title: "It's a robot... it's a pet..."
+			x: 26.0d
+			y: 6.5d
+			dependencies: ["55DC40BAD088D019"]
+			id: "3B2D7BF2C3C8FDF1"
+			tasks: [{
+				id: "39451AB54583994A"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			title: "You Win!"
+			icon: {
+				id: "minecraft:leather_helmet"
+				Count: 1b
+				tag: {
+					Unbreakable: 1
+					Damage: 0
+					display: {
+						Lore: ["[{\"text\":\"Awarded upon completion of the Home quest line.\",\"italic\":false}]"]
+						color: 16701501
+						Name: "[{\"text\":\"Golden Crown\",\"italic\":false}]"
+					}
+					Enchantments: [{ }]
+				}
+			}
+			x: 27.5d
+			y: 6.5d
+			description: ["Good job."]
+			dependencies: ["3B2D7BF2C3C8FDF1"]
+			id: "0AAA0A900D473172"
+			tasks: [{
+				id: "58BAC68C3791B7D1"
+				type: "checkmark"
+				title: "Checkmark"
+			}]
+			rewards: [
+				{
+					id: "7A52EBBAA6CB76A1"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Unbreakable: 1
+							Damage: 0
+							display: {
+								Lore: ["[{\"text\":\"Awarded upon completion of the Home quest line.\",\"italic\":false}]"]
+								color: 16701501
+								Name: "[{\"text\":\"Golden Crown\",\"italic\":false}]"
+							}
+							Enchantments: [{ }]
+						}
+					}
+				}
+				{
+					id: "314BDB069EDF07D2"
+					type: "item"
+					item: "stainless:doubloon_pile"
+				}
+			]
+		}
+		{
+			title: "'Sudos"
+			x: 15.5d
+			y: 8.0d
+			description: ["Create: Broken Bad introduces many new chemicals to Create."]
+			dependencies: ["77FE6B1D1BAEA1BC"]
+			id: "6BD0D933D8FFFC21"
+			tasks: [{
+				id: "59DDDDF0C088CD16"
+				type: "item"
+				item: "createbb:sudafed"
 			}]
 		}
 	]

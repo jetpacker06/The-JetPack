@@ -11,6 +11,7 @@
 		{
 			x: -3.0d
 			y: -1.0d
+			description: ["Smile! Or shift-right-click to select a filter or upload your own photo."]
 			id: "10E2DF4A8D662740"
 			tasks: [{
 				id: "6137483EAF9B3ED0"
@@ -18,15 +19,17 @@
 				item: "camera:camera"
 			}]
 			rewards: [{
-				id: "62C7DD7093BBC1E7"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "00571D2DE2CE1816"
+				type: "item"
+				auto: "disabled"
+				item: "stainless:steel_ingot"
 			}]
 		}
 		{
 			title: "Dice"
 			x: -3.0d
 			y: -2.0d
+			description: ["Roll a 6-sided die."]
 			id: "60496E4F75DEFA4B"
 			tasks: [{
 				id: "138921F44640472B"
@@ -49,6 +52,7 @@
 		{
 			x: -2.0d
 			y: -2.0d
+			description: ["Find any biome."]
 			id: "5BC1E6AC7CF8DCD9"
 			tasks: [{
 				id: "20F8F72F3ED4BEC3"
@@ -117,6 +121,11 @@
 				type: "item"
 				item: "enderstorage:ender_chest"
 			}]
+			rewards: [{
+				id: "0D19AE0101B70E3C"
+				type: "item"
+				item: "stainless:steel_ingot"
+			}]
 		}
 		{
 			x: 0.0d
@@ -127,6 +136,35 @@
 				id: "0B23DAA0F229F6C9"
 				type: "checkmark"
 				title: "Light Overlay"
+			}]
+		}
+		{
+			title: "Unburned"
+			x: 1.0d
+			y: -2.0d
+			description: ["Fireproof your home."]
+			id: "39E2809EB2EA9E65"
+			tasks: [{
+				id: "221175D6D30040C3"
+				type: "item"
+				item: "unburned:fireproof_oak_log"
+			}]
+		}
+		{
+			title: "Archer's Paradox"
+			x: 1.0d
+			y: -1.0d
+			description: ["Several arrows to mess around with."]
+			id: "6CF538FF3B3FA776"
+			tasks: [{
+				id: "26A79AE990A63183"
+				type: "item"
+				item: "archers_paradox:training_arrow"
+			}]
+			rewards: [{
+				id: "26C99AE9B0443372"
+				type: "item"
+				item: "stainless:steel_ingot"
 			}]
 		}
 	]

@@ -1,0 +1,17 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "itemInput": {
+    "ingredient": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "chemicalInput": {
+    "amount": 200,
+    "infuse_type": "crafttweaker:radiance"
+  },
+  "output": {
+    "item": "tconstruct:creative_slot",
+    "nbt": {"slot": "upgrades"},
+    "count": 1
+  }
+}

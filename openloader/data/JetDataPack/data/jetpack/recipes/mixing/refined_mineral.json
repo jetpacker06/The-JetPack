@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "item": "mekanism:ingot_refined_glowstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "stainless:steel_nugget"
+    }
+  ]
+}

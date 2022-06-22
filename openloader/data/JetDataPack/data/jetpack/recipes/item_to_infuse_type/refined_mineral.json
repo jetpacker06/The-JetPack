@@ -1,0 +1,14 @@
+{
+  "type": "mekanism:infusion_conversion",
+  "input": {
+    "ingredient": [
+      {
+        "item": "stainless:steel_nugget"
+      }
+    ]
+  },
+  "output": {
+    "infuse_type": "crafttweaker:refined_mineral",
+    "amount": 20
+  }
+}
