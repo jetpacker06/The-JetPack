@@ -10,7 +10,7 @@ JEI.hideIngredient(<item:stainless:steel_axe>);
 JEI.hideIngredient(<item:stainless:steel_pickaxe>);
 JEI.hideIngredient(<item:stainless:steel_shovel>);
 JEI.hideIngredient(<item:stainless:steel_hoe>);
-//JEI.hideIngredient(<item:create:copper_nugget>);
+JEI.hideIngredient(<item:create:copper_nugget>);
 JEI.hideIngredient(<item:extendedcrafting:recipe_maker>);
 JEI.hideIngredient(<item:tconstruct:creative_slot>.withTag({slot: "souls" as string}));
 
