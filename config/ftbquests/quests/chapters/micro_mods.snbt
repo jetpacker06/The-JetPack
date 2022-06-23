@@ -86,6 +86,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "529CE74891056956"
+				type: "item"
+				item: "stainless:steel_ingot"
+			}]
 		}
 		{
 			title: "Inventory Sorter"
@@ -148,6 +153,11 @@
 				id: "221175D6D30040C3"
 				type: "item"
 				item: "unburned:fireproof_oak_log"
+			}]
+			rewards: [{
+				id: "09DFF734D199E03B"
+				type: "item"
+				item: "stainless:steel_ingot"
 			}]
 		}
 		{
