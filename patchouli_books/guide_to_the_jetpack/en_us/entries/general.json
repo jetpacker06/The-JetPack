@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Server IP: coming soon $(br)$(l:https://discord.gg/JzAQPX7kDR)Join the Discord server here!"
+      "text": "Server IP: Coming soon. $(br)$(l:https://discord.gg/JzAQPX7kDR)Join the Discord server here!"
     }
   ]
 }

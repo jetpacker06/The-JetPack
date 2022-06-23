@@ -5,7 +5,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "If you want to leave feedback or make a suggestion, leave a comment on CurseForge or at the$(l:https://discord.gg/JzAQPX7kDR) Discord server.$(/l)$(br)For bugs, create a $(br)$(l:https://discord.gg/JzAQPX7kDR)Github issue.$(/l)"
+      "text": "If you want to leave feedback or make a suggestion, leave a comment on CurseForge or at the$(l:https://discord.gg/JzAQPX7kDR) Discord server.$(/l)$(br)For bugs, create a $(br)$(l:https://github.com/jetpacker06/The-JetPack-2/issues/new)Github issue.$(/l)"
     }
   ]
 }
