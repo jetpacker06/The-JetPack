@@ -304,14 +304,15 @@
 			}]
 			rewards: [
 				{
-					id: "50C5A17716493E81"
-					type: "item"
-					item: "stainless:doubloon_pile"
-				}
-				{
 					id: "21D1EE0566152623"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					id: "0229BB9B0F39642B"
+					type: "item"
+					item: "stainless:steel_ingot"
+					count: 4
 				}
 			]
 		}

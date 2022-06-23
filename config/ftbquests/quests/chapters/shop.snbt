@@ -1,0 +1,1661 @@
+{
+	id: "31F7EB5B8505E492"
+	group: ""
+	order_index: 4
+	filename: "shop"
+	title: "Shop"
+	icon: "stainless:steel_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "stainless:steel_ingot"
+			x: 0.5d
+			y: -3.0d
+			id: "55D1989C3A496CB1"
+			tasks: [
+				{
+					id: "5A8134501DC7C375"
+					type: "checkmark"
+					title: "Doubloons are traded here."
+				}
+				{
+					id: "0DF15BAEB1A6FB0A"
+					type: "checkmark"
+					title: "On the left, you can earn. On the right, you can spend."
+				}
+			]
+		}
+		{
+			icon: "stainless:steel_ingot"
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["55D1989C3A496CB1"]
+			id: "37D1AA561D08288A"
+			tasks: [{
+				id: "34DCE9645817BDA5"
+				type: "checkmark"
+				title: " "
+			}]
+		}
+		{
+			title: "Diamond ore"
+			icon: "minecraft:diamond_ore"
+			x: -3.0d
+			y: -0.5d
+			description: [""]
+			id: "64DF22B26A602642"
+			tasks: [{
+				id: "236A63CA802F3958"
+				type: "item"
+				title: "Any #forge:ores/diamond"
+				tags: ["reset"]
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/diamond"
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5280109D8DDA816E"
+					type: "item"
+					tags: ["reset"]
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "210C6C1264928D57"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			id: "005D1A3AA1F12250"
+			tasks: [{
+				id: "2C70E9A9F0F44BA4"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:raw_iron_block"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7C21D75F970C20CC"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "6ECB15CD45BD08F2"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			id: "0AA04E53D1919060"
+			tasks: [{
+				id: "3C9FE0C4BA66CB85"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:carrot"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "68B12BBE77E436C5"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "7852B7F16071DE83"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			id: "6B8652F43433FCD0"
+			tasks: [{
+				id: "687E28BF6336646E"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:potato"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2B824DBD391CB02A"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "16C210D7C49DC674"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			id: "3F4D20047CD7C2E9"
+			tasks: [{
+				id: "79ABBE613282CD79"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:wheat"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7885E1D318F6886E"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "61D9A62CD78CD4BC"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "32x Rice"
+			icon: "farmersdelight:rice_panicle"
+			x: -2.0d
+			y: 1.5d
+			id: "37E17B1B4AF38B77"
+			tasks: [{
+				id: "7D72B6E98D1B6E4C"
+				type: "item"
+				title: "Any #jetpack:rice_plants"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "jetpack:rice_plants"
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "04D261AF56A1C200"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "70A96B6ED86B8578"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "5CED435C7E046F2F"
+			tasks: [{
+				id: "4AAEC0BB4BC16E4A"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:raw_copper_block"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "538B3BDD75A48303"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+					count: 2
+				}
+				{
+					id: "119FDEA0244A333F"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			id: "6FD34CB5631B71B5"
+			tasks: [{
+				id: "41196E47A68FB9BF"
+				type: "item"
+				item: "minecraft:pumpkin"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7E075DB9E7CCE32F"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "451F79A44D7CE680"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "96x Melon"
+			x: -3.0d
+			y: 2.5d
+			id: "568A6443B93151BD"
+			tasks: [
+				{
+					id: "7063C09B99FAEE9E"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:melon_slice"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "35B1CFBE0A3095E6"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:melon_slice"
+					count: 32L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "10A4A971C21C7B76"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "0ECAE01F92B6A8F9"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			id: "2A7E684D8C0D915E"
+			tasks: [{
+				id: "78AF49EC8570B533"
+				type: "item"
+				disable_toast: true
+				item: "create:polished_rose_quartz"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "190734A4F280E4D5"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "53962487AE017544"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			id: "53ED3B5768AB13D0"
+			tasks: [{
+				id: "1EC562D3A7FF323F"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:rotten_flesh"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "08D32D20AB8D2600"
+					type: "item"
+					auto: "enabled"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "1C356BF8E1F77E3A"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			title: "32x Bone"
+			x: -3.0d
+			y: 0.5d
+			id: "185B3A73C277C785"
+			tasks: [{
+				id: "0E848F6EA4E77484"
+				type: "item"
+				title: "Any #forge:bones"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bones"
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "43CC568DB5776E49"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "1FC7FB003F17C495"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			id: "333321A26138CFFF"
+			tasks: [{
+				id: "695A0F7C42B49D6D"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:gunpowder"
+				count: 16L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7EC33D2E0CC67919"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "146D813115C56551"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			id: "2A8C47C1972A5433"
+			tasks: [{
+				id: "6090983EBEFBA11C"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:string"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "12CEC86BA6AA82F8"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "03F8AB2B55DD6B61"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Trident"
+			icon: {
+				id: "minecraft:trident"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 2.5d
+			id: "527CBAE14B0B9E46"
+			tasks: [{
+				id: "099891DD80DB460A"
+				type: "item"
+				disable_toast: true
+				item: "stainless:doubloon_pile"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "419F501EC965398A"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "183C1FE25CD900DF"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Tinted Glass"
+			icon: "minecraft:tinted_glass"
+			x: 4.0d
+			y: -2.5d
+			id: "287DDCA263114BB3"
+			tasks: [
+				{
+					id: "38AEE5B822BE7E93"
+					type: "item"
+					item: "minecraft:glass"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "2F76096EE9828996"
+					type: "item"
+					item: "stainless:steel_ingot"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "476B8C38FA91967F"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:tinted_glass"
+					count: 8
+				}
+				{
+					id: "2A8E943ED5CCBE9E"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			title: "Seed bundle"
+			icon: "minecraft:wheat_seeds"
+			x: 3.0d
+			y: 1.5d
+			id: "01F7D294A93826EE"
+			tasks: [{
+				id: "5F54A75FD38BFE97"
+				type: "item"
+				item: "stainless:steel_ingot"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4AB1B1BBC696321D"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "468C61EC82045578"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:pumpkin_seeds"
+				}
+				{
+					id: "102E9B21DD28D8D7"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:melon_seeds"
+				}
+				{
+					id: "065B4E397726E87C"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:beetroot_seeds"
+				}
+				{
+					id: "6C59804A6B3E57A8"
+					type: "item"
+					auto: "no_toast"
+					item: "supplementaries:flax_seeds"
+				}
+				{
+					id: "75F43B20913E03E2"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:carrot"
+				}
+				{
+					id: "5A501EE489138607"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:potato"
+				}
+				{
+					id: "02B06A4833F83EE5"
+					type: "item"
+					auto: "no_toast"
+					item: "farmersdelight:cabbage_seeds"
+				}
+				{
+					id: "25064CC9A1EF3FC5"
+					type: "item"
+					auto: "no_toast"
+					item: "farmersdelight:tomato_seeds"
+				}
+				{
+					id: "1AD39DEA5C9AA969"
+					type: "item"
+					auto: "no_toast"
+					item: "createbb:ephedra_seeds"
+				}
+				{
+					id: "2052B74932C0A0D9"
+					type: "item"
+					auto: "no_toast"
+					item: "farmersdelight:rice"
+				}
+				{
+					id: "6C4A4D5EFFAA0238"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+				{
+					id: "24EA64D8D32FF353"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:cocoa_beans"
+				}
+				{
+					id: "2B58B5A8228C5C66"
+					type: "item"
+					auto: "no_toast"
+					item: "farmersdelight:onion"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			id: "77199C66FA731E4E"
+			tasks: [{
+				id: "70C37D299868B806"
+				type: "item"
+				disable_toast: true
+				item: "minecraft:raw_gold_block"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "70288CCD187A1FD7"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "4A1A6F581BE2965F"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			id: "34375899549CE919"
+			tasks: [{
+				id: "5083DCC1F39D6DAD"
+				type: "item"
+				disable_toast: true
+				item: "tconstruct:raw_cobalt_block"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0FD13132D5E68252"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "55FAFD9025806B03"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			id: "7BD6B5DF24B66775"
+			tasks: [{
+				id: "5F3C961677DE1FA2"
+				type: "item"
+				disable_toast: true
+				item: "mekanism:alloy_atomic"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3120917116A8B6AA"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "0483BA5CC7D6CCB4"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Sapling bundle"
+			icon: "minecraft:oak_sapling"
+			x: 2.0d
+			y: 1.5d
+			id: "03FC3FE838ABE28E"
+			tasks: [{
+				id: "2B0B86C2810A6334"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3AD146E2E5B6A598"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "49E7AD85A2E49F24"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "3401A8C0C964D429"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "428F18B676D3D365"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "79F7AEEEDE937A79"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:acacia_sapling"
+				}
+				{
+					id: "3A40927A3F02AF0A"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:dark_oak_sapling"
+					count: 4
+				}
+				{
+					id: "0FFFF68F12D53D9A"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:origin_sapling"
+				}
+				{
+					id: "7D3BB21D330DD077"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:flowering_oak_sapling"
+				}
+				{
+					id: "1A2894AA2507A475"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:rainbow_birch_sapling"
+				}
+				{
+					id: "6EC993E3E4F3A91B"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:yellow_autumn_sapling"
+				}
+				{
+					id: "700B8949E5982D06"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:orange_autumn_sapling"
+				}
+				{
+					id: "262B298A5A72364C"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:maple_sapling"
+				}
+				{
+					id: "46302730F7107E57"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:fir_sapling"
+				}
+				{
+					id: "6945A2068EB7EBBF"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:redwood_sapling"
+				}
+				{
+					id: "4F44AD0E7A746D94"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:white_cherry_sapling"
+				}
+				{
+					id: "573B7C2A32B9F7CC"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:pink_cherry_sapling"
+				}
+				{
+					id: "58AE1C6588C72732"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:mahogany_sapling"
+				}
+				{
+					id: "6A1921563AC68569"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:jacaranda_sapling"
+				}
+				{
+					id: "27A791810B1DE4B6"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:palm_sapling"
+				}
+				{
+					id: "2B419DB6E8F8162F"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:willow_sapling"
+				}
+				{
+					id: "7C2D6DD6B2F075ED"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:dead_sapling"
+				}
+				{
+					id: "6CA7590AD251C92C"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:magic_sapling"
+				}
+				{
+					id: "221E23F791202C3F"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:umbran_sapling"
+				}
+				{
+					id: "65A275ED4F3CAE3A"
+					type: "item"
+					auto: "no_toast"
+					item: "biomesoplenty:hellbark_sapling"
+				}
+				{
+					id: "5BCCB88E1D0A30BE"
+					type: "item"
+					auto: "no_toast"
+					item: "tconstruct:earth_slime_sapling"
+				}
+				{
+					id: "4A66B06006CEA62D"
+					type: "item"
+					auto: "no_toast"
+					item: "tconstruct:sky_slime_sapling"
+				}
+				{
+					id: "425C907322F93730"
+					type: "item"
+					auto: "no_toast"
+					item: "tconstruct:ender_slime_sapling"
+				}
+				{
+					id: "2472B62E8930F3F1"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "2023FD31226B83E7"
+			tasks: [{
+				id: "74892DD8736D562A"
+				type: "item"
+				disable_toast: true
+				item: "create:raw_zinc_block"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7A61F609B79640FD"
+					type: "item"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "667D938D680E0C4F"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			id: "526D4595F2A8D3F6"
+			tasks: [{
+				id: "4A7E827928F1FB83"
+				type: "item"
+				disable_toast: true
+				item: "mekanism:block_raw_osmium"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "13AC1B524E408039"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "3DEBF5617C57F63C"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			id: "295DD840A8EA1FBA"
+			tasks: [{
+				id: "65928532DAAEEBBB"
+				type: "item"
+				disable_toast: true
+				item: "mekanism:block_raw_tin"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "222B310E518C91F2"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "24C9FAEF8989294A"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			id: "283BDEEE3F0AD508"
+			tasks: [{
+				id: "24C8D01E2AED9D1D"
+				type: "item"
+				disable_toast: true
+				item: "mekanism:block_raw_lead"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "079ACF502D7FDF49"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "74E13232C845105C"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			id: "131E0A4BB260A2B6"
+			tasks: [{
+				id: "71A4AD2B83D482F9"
+				type: "item"
+				disable_toast: true
+				item: "mekanism:block_raw_uranium"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "685262B5E583DA3A"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "370A95EF83388E1E"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			title: "Brass Call Bell"
+			icon: "createbb:brass_call_bell"
+			x: 2.0d
+			y: -2.5d
+			id: "04FB903804BDBF29"
+			tasks: [{
+				id: "5F74345A8901D6A4"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4C174293382BC385"
+					type: "item"
+					auto: "no_toast"
+					item: "createbb:brass_call_bell"
+				}
+				{
+					id: "656FFDF23C8FF93A"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Aluminosilicate Catalyst"
+			icon: "createbb:aluminosilicate_catalyst"
+			x: 3.0d
+			y: -0.5d
+			id: "74D1610869576790"
+			tasks: [{
+				id: "4B08DF86E44564B2"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5E518B320D432EC4"
+					type: "item"
+					auto: "no_toast"
+					item: "createbb:aluminosilicate_catalyst"
+				}
+				{
+					id: "04B891662C7226AC"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			title: "Manyullyn Ingot"
+			icon: "tconstruct:manyullyn_ingot"
+			x: 2.0d
+			y: 0.5d
+			id: "68C7201B8A5CE25C"
+			tasks: [{
+				id: "7C3E64BCF55E8FEF"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "535DE6045EADAE12"
+					type: "item"
+					auto: "no_toast"
+					item: "tconstruct:manyullyn_ingot"
+					count: 4
+				}
+				{
+					id: "0CDF091C5010E113"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Slimesteel Ingot"
+			icon: "tconstruct:slimesteel_ingot"
+			x: 2.0d
+			y: -0.5d
+			id: "1D8C6CDBBBFF8F0F"
+			tasks: [{
+				id: "097B2AD472D7D986"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "487EE625D36A9F8F"
+					type: "item"
+					auto: "no_toast"
+					item: "tconstruct:slimesteel_ingot"
+					count: 4
+				}
+				{
+					id: "69DD0E47AB209667"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Pig Iron Ingot"
+			icon: "tconstruct:pig_iron_ingot"
+			x: 4.0d
+			y: -0.5d
+			hide_dependency_lines: false
+			id: "49EE9C313DE78828"
+			tasks: [{
+				id: "1E04066EEF66C148"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "161ED8DF48057FC4"
+					type: "item"
+					item: "tconstruct:pig_iron_ingot"
+					count: 4
+				}
+				{
+					id: "48BC68261D4B8273"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			title: "Queen's Slime"
+			icon: "tconstruct:queens_slime_ingot"
+			x: 3.0d
+			y: 0.5d
+			id: "681206B2F52A3849"
+			tasks: [{
+				id: "4B99B941907CA06A"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5B14A1444F167FCC"
+					type: "item"
+					item: "tconstruct:queens_slime_ingot"
+					count: 4
+				}
+				{
+					id: "1747927FB0A1453E"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			title: "Hepatizon Ingot"
+			icon: "tconstruct:hepatizon_ingot"
+			x: 4.0d
+			y: 0.5d
+			id: "688F4DBF510904C1"
+			tasks: [{
+				id: "2206C6F4EBEB94D9"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7081AEC6B2CD27FE"
+					type: "item"
+					auto: "no_toast"
+					item: "tconstruct:hepatizon_ingot"
+					count: 4
+				}
+				{
+					id: "3A0D1578089CF3FF"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "32x Network Cable"
+			icon: "storagenetwork:kabel"
+			x: 3.0d
+			y: -2.5d
+			id: "35041CA767A7332D"
+			tasks: [{
+				id: "46E138D27DC1FD97"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "18B51301DBA938A0"
+					type: "item"
+					auto: "no_toast"
+					item: "storagenetwork:kabel"
+					count: 32
+				}
+				{
+					id: "374FAAC15B5B5C4C"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "End crystal"
+			icon: "minecraft:end_crystal"
+			x: 4.0d
+			y: -1.5d
+			id: "1EA3B1C9DA3E6169"
+			tasks: [{
+				id: "4944217800893648"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "36D60E0D1325E8BC"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:end_crystal"
+					count: 2
+				}
+				{
+					id: "722ABB5879CB9CE0"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Wither Rose"
+			icon: "minecraft:wither_rose"
+			x: 2.0d
+			y: -1.5d
+			id: "14EF8931ABF45DE0"
+			tasks: [{
+				id: "11D21A723D2248BD"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				consume_items: true
+				only_from_crafting: false
+			}]
+			rewards: [
+				{
+					id: "2F7B7D329A5458E0"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:wither_rose"
+				}
+				{
+					id: "0E7BBCD3287B8ADC"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Baked Potato"
+			icon: "minecraft:baked_potato"
+			x: 3.0d
+			y: -1.5d
+			id: "6C796DD709C04DFF"
+			tasks: [
+				{
+					id: "321FF532F32B73E8"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:potato"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "34CECEB417D0EE74"
+					type: "item"
+					disable_toast: true
+					item: "stainless:steel_ingot"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4F16D8502F34D4BB"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:baked_potato"
+					count: 8
+				}
+				{
+					id: "40F1392A43586BFE"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			title: "Nether bundle"
+			icon: "minecraft:nether_wart"
+			x: 4.0d
+			y: 1.5d
+			id: "3AA97A297DA357C3"
+			tasks: [{
+				id: "5306EAE85B521168"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3FBBECF0CFAA48BD"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:soul_sand"
+					count: 4
+				}
+				{
+					id: "233E77E0B4FDBFCB"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:nether_wart"
+					count: 4
+				}
+				{
+					id: "3C689CE62D8A06C7"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "7D361D2EBA8A3908"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "21CBA9F46168DB17"
+					type: "item"
+					item: "minecraft:crimson_nylium"
+				}
+				{
+					id: "73DE29D608DC6350"
+					type: "item"
+					item: "minecraft:warped_nylium"
+				}
+				{
+					id: "50B70B2BE2FC5E79"
+					type: "item"
+					item: "minecraft:weeping_vines"
+				}
+				{
+					id: "7516C067B4CF65A5"
+					type: "item"
+					item: "minecraft:twisting_vines"
+				}
+				{
+					id: "58BCD115C764BEBB"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			id: "43863C680A2311CC"
+			tasks: [{
+				id: "71FBD663FF5588DD"
+				type: "item"
+				disable_toast: true
+				item: "createbb:white_meth"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "369EE24F7EC7823F"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "63E068C8AD2FC5BD"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			id: "0E11366FFADD9F34"
+			tasks: [{
+				id: "238B6A629716BF1F"
+				type: "item"
+				disable_toast: true
+				item: "createbb:blue_meth"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2E05E7F467FA9BF1"
+					type: "item"
+					auto: "no_toast"
+					item: "stainless:steel_ingot"
+				}
+				{
+					id: "6233BFC30D466F01"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Creative Ability"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			x: 2.5d
+			y: 2.5d
+			id: "1F766F8415360D98"
+			tasks: [{
+				id: "3EB2401E480A56C4"
+				type: "item"
+				disable_toast: true
+				item: "stainless:doubloon_pile"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4433846F1C7D9A91"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+				}
+				{
+					id: "5FAE57E937C8CD3C"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			title: "Creative Upgrade"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			x: 3.5d
+			y: 2.5d
+			id: "432A0ED1EF1BA839"
+			tasks: [{
+				id: "3F19774E550195A8"
+				type: "item"
+				disable_toast: true
+				item: "stainless:steel_ingot"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "419C2F5FD00F1433"
+					type: "item"
+					auto: "no_toast"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "2A17A444F7D443AA"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+					auto: "no_toast"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			description: ["This is not an item duplicator."]
+			id: "29CBB37F9636B7B6"
+			tasks: [{
+				id: "3EF6E4A530BB137F"
+				type: "item"
+				disable_toast: true
+				item: "stainless:doubloon_pile"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "307B3D16636C1DB3"
+					type: "item"
+					auto: "enabled"
+					item: "storagedrawers:creative_storage_upgrade"
+				}
+				{
+					id: "053918700BD56F6C"
+					type: "custom"
+					title: "This task is repeatable."
+					icon: "create:copper_nugget"
+					tags: ["reset"]
+				}
+			]
+		}
+	]
+}
