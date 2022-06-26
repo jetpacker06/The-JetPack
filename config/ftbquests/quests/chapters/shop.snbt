@@ -1630,6 +1630,8 @@
 			]
 		}
 		{
+			title: "Creative Storage Upgrade"
+			icon: "storagedrawers:creative_storage_upgrade"
 			x: 4.5d
 			y: 2.5d
 			description: ["This is not an item duplicator."]
@@ -1645,7 +1647,7 @@
 				{
 					id: "307B3D16636C1DB3"
 					type: "item"
-					auto: "enabled"
+					auto: "no_toast"
 					item: "storagedrawers:creative_storage_upgrade"
 				}
 				{
@@ -1654,6 +1656,7 @@
 					title: "This task is repeatable."
 					icon: "create:copper_nugget"
 					tags: ["reset"]
+					auto: "no_toast"
 				}
 			]
 		}

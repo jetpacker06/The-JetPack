@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "createbb:copper_zinc_catalyst"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180
+  },
+  "temperature": 900,
+  "time": 200
+}
