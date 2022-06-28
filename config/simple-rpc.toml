@@ -1,77 +1,68 @@
-
-#General Config Section
 [general]
-	#The Application ID of the Discord App to use
-	clientID = 762726289341677668
+	#The Client ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	clientID = 991153206107316234
 	#Enable/Disable the mod
-	enabled = false
+	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
 	debugging = false
 	#Enable/Disable the in game config screen
-	configScreen = true
+	configScreen = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
 	launcherIntegration = false
 	#Internal Version Number. NO TOUCHY!
 	version = 13
 
-#The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
-	enabled = false
+	enabled = true
 	#The first line of text under the app name
-	description = "Booting up the JetPack..."
+	description = "Booting up the JetPack 2..."
 	#The second line of text under the app name
-	state = "Game Starting..."
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "black_background_logo"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#The Main Menu event
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is playing The JetPack - Main Menu"
-	#The seconds line of text under the app name
-	state = "Chilling in the menu"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	description = "Main Menu"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "black_background_logo"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#The Server List event
 [server_list]
 	#Enable/Disable the Server List Event
 	enabled = false
 	#The first line of text under the app name
 	description = "%player% is looking for a server"
 	#The second line of text under the app name
-	state = "Searching for friends"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	state = "f"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "black_background_logo"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#The Realms Screen event
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = false
@@ -79,75 +70,67 @@
 	description = "%player% is looking for a Realm"
 	#The second line of text under the app name
 	state = "Browsing Realms"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "jetpack:gui/title_screen"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
-	enabled = false
+	enabled = true
 	#The first line of text under the app name
-	description = "%player% is joining a game"
+	description = "Joining a game..."
 	#The second line of text under the app name
-	state = "Joining Game"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "black_background_logo"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "%player% is playing The JetPack singleplayer."
+	description = "Playing Singleplayer."
 	#The second line of text under the app name
-	state = "Playing singleplayer."
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "black_background_logo"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#The Multi Player Event
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Playing The JetPack on %servername% with %players% players"
+	description = "Playing Multiplayer"
 	#The second line of text under the app name
-	state = "Playing online"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "black_background_logo"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#The Realms Game Event
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = false
@@ -155,47 +138,41 @@
 	description = "Playing on %realmname%"
 	#The second line of text under the app name
 	state = "Playing on a Realm"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "jetpack:gui/title_screen"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "jetpack:gui/black_background_logo.png"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
-	#The buttons to display on Discord
 	buttons = []
 
-#Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
 	description = "Playing The JetPack"
 	#The second line of text under the app name
 	state = ""
-	#The Asset ID of the image to display as the large image
-	largeImageKey = "mclogonew"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "black_background_logo"
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = "mclogo"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "grass"
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
 	buttons = []
 
-#Dimension Information Overrides
 [dimension_overrides]
-	#Allows you to override the displayed values for dimensions
 	enabled = false
 
-	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
 		name = "overworld"
 		description = "%player% is in The Overworld"
 		state = ""
 		largeImageKey = "overworld"
 		largeImageText = "In the Overworld"
-		smallImageKey = "mclogo"
+		smallImageKey = "jetpack:gui/black_background_logo.png"
 		smallImageText = "%mods% mods installed"
 
 	[[dimension_overrides.dimensions]]
@@ -204,7 +181,7 @@
 		state = ""
 		largeImageKey = "nether"
 		largeImageText = "In the Nether"
-		smallImageKey = "mclogo"
+		smallImageKey = "jetpack:gui/black_background_logo.png"
 		smallImageText = "%mods% mods installed"
 
 	[[dimension_overrides.dimensions]]
@@ -213,6 +190,7 @@
 		state = ""
 		largeImageKey = "end"
 		largeImageText = "In the End"
-		smallImageKey = "mclogo"
+		smallImageKey = "jetpack:gui/black_background_logo.png"
 		smallImageText = "%mods% mods installed"
+
 
